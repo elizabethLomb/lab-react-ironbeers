@@ -10,3 +10,16 @@ body {
 .navbar-brand{
   margin: 0 auto !important;
 }
+
+a:hover{
+  text-decoration: none !important;
+}
+a .card {
+  color: black;
+  text-decoration: none;
+  transition: all .5s ease-in;
+}
+a .card:hover {
+  background: #d6d6d6;
+  text-decoration: none;
+}
